@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        List {
+            Text("Content 1")
+            Text("Content 2")
+            Text("Content 3")
+            Text("Content 4")
+            Text("Content 5")
+            Text("Content 6")
+        }
     }
 }
 
