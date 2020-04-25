@@ -13,9 +13,25 @@ struct ContentView: View {
         List {
             Text("Content 1")
             Text("Content 2")
-            Text("Content 3")
+            
+            HStack {
+                Image("sea")
+                .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 80.0)
+                Text("海")
+            }
+
             Text("Content 4")
-            Text("Content 5")
+            
+            VStack {
+                Image("city")
+                .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 80.0)
+                Text("都市")
+            }
+            
             Text("Content 6")
         }
     }
