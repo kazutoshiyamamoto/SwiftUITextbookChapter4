@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 Text("Content 4")
                 
-                VStack {
+                HStack {
                     Image("city")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
