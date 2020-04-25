@@ -35,7 +35,7 @@ struct ContentView: View {
                 
                 Text("Content 6")
             }
-            .navigationBarTitle("タイトル")
+            .navigationBarTitle("タイトル", displayMode: .inline)
         }
     }
 }
