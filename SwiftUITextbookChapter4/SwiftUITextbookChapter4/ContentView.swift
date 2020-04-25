@@ -10,29 +10,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List {
-            Text("Content 1")
-            Text("Content 2")
-            
-            HStack {
-                Image("sea")
-                .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 80.0)
-                Text("海")
+        NavigationView {
+            List {
+                Text("Content 1")
+                Text("Content 2")
+                
+                HStack {
+                    Image("sea")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 80.0)
+                    Text("海")
+                }
+                
+                Text("Content 4")
+                
+                VStack {
+                    Image("city")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 80.0)
+                    Text("都市")
+                }
+                
+                Text("Content 6")
             }
-
-            Text("Content 4")
-            
-            VStack {
-                Image("city")
-                .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 80.0)
-                Text("都市")
-            }
-            
-            Text("Content 6")
+            .navigationBarTitle("タイトル")
         }
     }
 }
