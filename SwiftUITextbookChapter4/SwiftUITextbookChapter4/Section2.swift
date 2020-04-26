@@ -12,10 +12,10 @@ let metro = ["銀座線", "丸の内線", "日比谷線", "東西線", "千代�
 
 struct Section2: View {
     var body: some View {
-        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+        List(0 ..< metro.count) { item in
             HStack {
                 Text(String(item))
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                Text(metro[item])
             }
         }
     }
