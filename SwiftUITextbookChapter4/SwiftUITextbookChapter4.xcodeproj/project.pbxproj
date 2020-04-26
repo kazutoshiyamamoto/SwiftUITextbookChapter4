@@ -13,6 +13,7 @@
 		FD78B86D2452B50F00233E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78B86C2452B50F00233E5A /* Assets.xcassets */; };
 		FD78B8702452B50F00233E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78B86F2452B50F00233E5A /* Preview Assets.xcassets */; };
 		FD78B8732452B50F00233E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78B8712452B50F00233E5A /* LaunchScreen.storyboard */; };
+		FDB5AD9924553C1600558816 /* Section2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5AD9824553C1600558816 /* Section2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD78B86F2452B50F00233E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD78B8722452B50F00233E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD78B8742452B50F00233E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB5AD9824553C1600558816 /* Section2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FD78B8662452B50A00233E5A /* AppDelegate.swift */,
 				FD78B8682452B50A00233E5A /* SceneDelegate.swift */,
 				FD78B86A2452B50A00233E5A /* ContentView.swift */,
+				FDB5AD9824553C1600558816 /* Section2.swift */,
 				FD78B86C2452B50F00233E5A /* Assets.xcassets */,
 				FD78B8712452B50F00233E5A /* LaunchScreen.storyboard */,
 				FD78B8742452B50F00233E5A /* Info.plist */,
@@ -149,6 +152,7 @@
 				FD78B8672452B50A00233E5A /* AppDelegate.swift in Sources */,
 				FD78B8692452B50A00233E5A /* SceneDelegate.swift in Sources */,
 				FD78B86B2452B50A00233E5A /* ContentView.swift in Sources */,
+				FDB5AD9924553C1600558816 /* Section2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
