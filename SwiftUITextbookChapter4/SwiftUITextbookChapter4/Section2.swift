@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+let metro = ["銀座線", "丸の内線", "日比谷線", "東西線", "千代田線", "半蔵門線", "南北線", "副都心線"]
+
 struct Section2: View {
     var body: some View {
         List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
