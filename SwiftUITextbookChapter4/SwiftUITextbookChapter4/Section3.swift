@@ -14,13 +14,13 @@ struct Section3: View {
     
     var body: some View {
         List {
-            Section(header: Text("四国")) {
+            Section(header: Text("四国").font(.largeTitle).padding(.top), footer: Text("最高標高は石鎚山の1,982m")) {
                 ForEach(0 ..< self.shikoku.count) { index in
                     Text(self.shikoku[index])
                 }
             }
             
-            Section(header: Text("九州")) {
+            Section(header: Text("九州").font(.largeTitle).padding(.top), footer: Text("最高標高は宮之浦岳の1,936m")) {
                 ForEach(0 ..< self.kyusyu.count) { index in
                     Text(self.kyusyu[index])
                 }
