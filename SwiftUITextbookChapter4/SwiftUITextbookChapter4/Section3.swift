@@ -13,9 +13,17 @@ struct Section3: View {
     let kyusyu = ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県"]
     
     var body: some View {
-        Section(header: Text("四国")) {
-            ForEach(0 ..< self.shikoku.count) { index in
-                Text(self.shikoku[index])
+        List {
+            Section(header: Text("四国")) {
+                ForEach(0 ..< self.shikoku.count) { index in
+                    Text(self.shikoku[index])
+                }
+            }
+            
+            Section(header: Text("九州")) {
+                ForEach(0 ..< self.kyusyu.count) { index in
+                    Text(self.kyusyu[index])
+                }
             }
         }
     }
