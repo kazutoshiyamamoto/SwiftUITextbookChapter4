@@ -26,6 +26,7 @@ struct Section3: View {
                 }
             }
         }
+        .listStyle(GroupedListStyle())
     }
 }
 
