@@ -13,7 +13,11 @@ struct Section3: View {
     let kyusyu = ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県"]
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Section(header: Text("四国")) {
+            ForEach(0 ..< self.shikoku.count) { index in
+                Text(self.shikoku[index])
+            }
+        }
     }
 }
 
