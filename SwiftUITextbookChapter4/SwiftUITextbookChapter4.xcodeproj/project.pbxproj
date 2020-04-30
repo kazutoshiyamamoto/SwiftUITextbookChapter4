@@ -18,6 +18,7 @@
 		FDFCCD842457F248004BCBA8 /* Section4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD832457F248004BCBA8 /* Section4.swift */; };
 		FDFCCD882457F2A5004BCBA8 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD872457F2A5004BCBA8 /* PhotoData.swift */; };
 		FDFCCD8C245A7870004BCBA8 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8B245A7870004BCBA8 /* RowView.swift */; };
+		FDFCCD8E245A7B32004BCBA8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8D245A7B32004BCBA8 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FDFCCD832457F248004BCBA8 /* Section4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section4.swift; sourceTree = "<group>"; };
 		FDFCCD872457F2A5004BCBA8 /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
 		FDFCCD8B245A7870004BCBA8 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		FDFCCD8D245A7B32004BCBA8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FDB5AD9824553C1600558816 /* Section2.swift */,
 				FDB5AD9A2456A02F00558816 /* Section3.swift */,
 				FDFCCD832457F248004BCBA8 /* Section4.swift */,
+				FDFCCD8D245A7B32004BCBA8 /* ListView.swift */,
 				FDFCCD8B245A7870004BCBA8 /* RowView.swift */,
 				FDFCCD872457F2A5004BCBA8 /* PhotoData.swift */,
 				FD78B86C2452B50F00233E5A /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 				FD78B86B2452B50A00233E5A /* ContentView.swift in Sources */,
 				FDFCCD842457F248004BCBA8 /* Section4.swift in Sources */,
 				FDB5AD9924553C1600558816 /* Section2.swift in Sources */,
+				FDFCCD8E245A7B32004BCBA8 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
