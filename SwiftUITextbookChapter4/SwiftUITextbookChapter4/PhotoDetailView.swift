@@ -25,6 +25,6 @@ struct PhotoDetailView: View {
 
 struct PhotoDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoDetailView()
+        PhotoDetailView(photo: photoArray[0])
     }
 }
