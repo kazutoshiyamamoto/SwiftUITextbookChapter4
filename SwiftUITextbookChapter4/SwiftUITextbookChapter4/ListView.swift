@@ -10,8 +10,13 @@ import SwiftUI
 
 struct ListView: View {
     var body: some View {
-        List(photoArray) { item in
-            PhotoRow(photo: item)
+        NavigationView{
+            List(photoArray) { item in
+                NavigationLink(destination: PhotoDetailView(photo: item)) {
+                    PhotoRow(photo: item)
+                }
+            }
+            .navigationBarTitle(Text("写真リスト"))
         }
     }
 }

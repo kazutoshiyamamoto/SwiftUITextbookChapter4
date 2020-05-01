@@ -13,14 +13,14 @@ struct PhotoDetailView: View {
     
     var body: some View {
         VStack {
-            Image(self.photo.imageName)
+            Image(photo.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-            Text(self.photo.title)
+            Text(photo.title)
             Spacer()
         }
         .padding()
-        .navigationBarTitle(Text(verbatim: self.photo.title), displayMode: .inline)
+        .navigationBarTitle(Text(verbatim: photo.title), displayMode: .inline)
     }
 }
 
