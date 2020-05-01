@@ -15,6 +15,7 @@ struct PhotoDetailView: View {
         VStack {
             Image(self.photo.imageName)
                 .resizable()
+                .aspectRatio(contentMode: .fit)
             Text(self.photo.title)
             Spacer()
         }
