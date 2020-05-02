@@ -20,6 +20,7 @@
 		FDFCCD8C245A7870004BCBA8 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8B245A7870004BCBA8 /* RowView.swift */; };
 		FDFCCD8E245A7B32004BCBA8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8D245A7B32004BCBA8 /* ListView.swift */; };
 		FDFCCD90245C00D6004BCBA8 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8F245C00D6004BCBA8 /* PhotoDetailView.swift */; };
+		FDFCCD92245DBC9F004BCBA8 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FDFCCD8B245A7870004BCBA8 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		FDFCCD8D245A7B32004BCBA8 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FDFCCD8F245C00D6004BCBA8 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FDFCCD8B245A7870004BCBA8 /* RowView.swift */,
 				FDFCCD8F245C00D6004BCBA8 /* PhotoDetailView.swift */,
 				FDFCCD872457F2A5004BCBA8 /* PhotoData.swift */,
+				FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */,
 				FD78B86C2452B50F00233E5A /* Assets.xcassets */,
 				FD78B8712452B50F00233E5A /* LaunchScreen.storyboard */,
 				FD78B8742452B50F00233E5A /* Info.plist */,
@@ -177,6 +180,7 @@
 				FDB5AD9924553C1600558816 /* Section2.swift in Sources */,
 				FDFCCD90245C00D6004BCBA8 /* PhotoDetailView.swift in Sources */,
 				FDFCCD8E245A7B32004BCBA8 /* ListView.swift in Sources */,
+				FDFCCD92245DBC9F004BCBA8 /* ContentView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
