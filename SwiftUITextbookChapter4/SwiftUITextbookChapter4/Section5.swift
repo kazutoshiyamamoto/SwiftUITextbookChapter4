@@ -13,10 +13,13 @@ struct Section5: View {
         NavigationView {
             VStack(alignment: .leading, spacing: 5.0) {
                 Image("city")
-                .resizable()
+                    .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 200.0)
-                    .padding(.bottom)
+                NavigationLink(destination: SubView()) {
+                    Text("街")
+                }
+                .padding(.bottom)
             }
         }
     }
