@@ -20,7 +20,15 @@ struct Section5: View {
                     Text("街")
                 }
                 .padding(.bottom)
-            }
+                
+                Image("sea")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200.0)
+                NavigationLink(destination: SubView2()) {
+                    Text("海")
+                }
+            }.navigationBarTitle("画像一覧")
         }
     }
 }
