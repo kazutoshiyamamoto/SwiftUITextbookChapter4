@@ -16,7 +16,7 @@ struct Section5: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 200.0)
-                NavigationLink(destination: SubView()) {
+                NavigationLink(destination: Section6()) {
                     Text("街")
                 }
                 .padding(.bottom)
@@ -25,7 +25,7 @@ struct Section5: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 200.0)
-                NavigationLink(destination: SubView2()) {
+                NavigationLink(destination: Section7()) {
                     Text("海")
                 }
             }.navigationBarTitle("画像一覧")

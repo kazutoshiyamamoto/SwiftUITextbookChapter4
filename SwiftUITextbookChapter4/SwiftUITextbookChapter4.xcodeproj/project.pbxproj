@@ -22,6 +22,8 @@
 		FDFCCD90245C00D6004BCBA8 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD8F245C00D6004BCBA8 /* PhotoDetailView.swift */; };
 		FDFCCD92245DBC9F004BCBA8 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */; };
 		FDFCCD942460611E004BCBA8 /* Section5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD932460611E004BCBA8 /* Section5.swift */; };
+		FDFCCD962462EF7B004BCBA8 /* Section6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD952462EF7B004BCBA8 /* Section6.swift */; };
+		FDFCCD982462F325004BCBA8 /* Section7.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCCD972462F325004BCBA8 /* Section7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		FDFCCD8F245C00D6004BCBA8 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 		FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		FDFCCD932460611E004BCBA8 /* Section5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section5.swift; sourceTree = "<group>"; };
+		FDFCCD952462EF7B004BCBA8 /* Section6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section6.swift; sourceTree = "<group>"; };
+		FDFCCD972462F325004BCBA8 /* Section7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				FDFCCD872457F2A5004BCBA8 /* PhotoData.swift */,
 				FDFCCD91245DBC9F004BCBA8 /* ContentView2.swift */,
 				FDFCCD932460611E004BCBA8 /* Section5.swift */,
+				FDFCCD952462EF7B004BCBA8 /* Section6.swift */,
+				FDFCCD972462F325004BCBA8 /* Section7.swift */,
 				FD78B86C2452B50F00233E5A /* Assets.xcassets */,
 				FD78B8712452B50F00233E5A /* LaunchScreen.storyboard */,
 				FD78B8742452B50F00233E5A /* Info.plist */,
@@ -173,12 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFCCD962462EF7B004BCBA8 /* Section6.swift in Sources */,
 				FDB5AD9B2456A02F00558816 /* Section3.swift in Sources */,
 				FD78B8672452B50A00233E5A /* AppDelegate.swift in Sources */,
 				FD78B8692452B50A00233E5A /* SceneDelegate.swift in Sources */,
 				FDFCCD8C245A7870004BCBA8 /* RowView.swift in Sources */,
 				FDFCCD882457F2A5004BCBA8 /* PhotoData.swift in Sources */,
 				FD78B86B2452B50A00233E5A /* ContentView.swift in Sources */,
+				FDFCCD982462F325004BCBA8 /* Section7.swift in Sources */,
 				FDFCCD842457F248004BCBA8 /* Section4.swift in Sources */,
 				FDFCCD942460611E004BCBA8 /* Section5.swift in Sources */,
 				FDB5AD9924553C1600558816 /* Section2.swift in Sources */,
